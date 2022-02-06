@@ -1,8 +1,8 @@
 import string
 
 A = 1
-B = 3
-C = 5
+B = 2
+C = 3
 
 def key(pos):
     return A * pos * pos + B * pos + C
@@ -12,7 +12,7 @@ count = len(alphabet)
 
 # Encrypt
 
-plaintext = 'ICH BIN IGOR'
+plaintext = 'HELLO'
 cryptotext = []
 
 for i in range(len(plaintext)):
