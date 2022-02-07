@@ -1,18 +1,18 @@
 import string
 
-A = 1
-B = 2
-C = 3
+A = 5
+B = 1
+C = 2
 
 def key(pos):
     return A * pos * pos + B * pos + C
 
-alphabet = string.ascii_uppercase
+alphabet = string.ascii_lowercase
 count = len(alphabet)
 
 # Encrypt
 
-plaintext = 'HELLO'
+plaintext = 'king of slaves'
 cryptotext = []
 
 for i in range(len(plaintext)):

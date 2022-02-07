@@ -14,7 +14,7 @@ count = len(alphabet)
 '''
 
 plaintext = 'PATRIARCH OF DIESEL BAND'
-cryptotext = 'hnkzmu mmar rig'
+cryptotext = 'UGAZRKCOU DV VBYNAI AAOF'
 
 x0 = alphabet.index(plaintext[0])
 x1 = alphabet.index(plaintext[1])
